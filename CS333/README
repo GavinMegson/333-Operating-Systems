@@ -1,0 +1,28 @@
+This reflects the 5 operating system projects I completed in spring 2018.
+
+For more info on the xv6 operating system and how PSU uses it for their
+courses, examine the README files in the subfolder.
+
+The 5 project technical reports are listed in this folder as PDFs.
+
+The final code (after submission but before implementing feedback) are
+in the subfolder. The state of the code at each project can be determined
+via the conditional compilation directives. The TAR of the original xv6
+is included as well for reference.
+
+
+Highlights of these projects include:
+
+    - Working on a very large C project with expansive file dependencies
+    - Debugging multi-threaded systems-level code with GDB
+    - Implementing process state lists
+    - Implementing multi-level feedback queues
+    - Implementing filesystem permissions
+
+
+Personal reflections:
+
+    - I should have made better use of helper functions. Several times I
+ended up writing custom linked list traversals for each process state
+list, which was very inefficient and much less readable.
+    - Operating systems aren't some magical box; they are actual code.
